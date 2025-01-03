@@ -1,68 +1,60 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🚀 Mars Rover Image Explorer 🌌  
+Explore Mars through the lens of NASA's rovers with this React-powered application. Showcasing images from all NASA's sent rovers, this app lets users filter by date, browse stunning Martian landscapes, and follow the journey of these robotic explorers.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Check out live
+🌐 Explore the app live: https://mars-explorer.netlify.app/
 
-### `yarn start`
+## 🌟 Features  
+- 📅 **Date Filtering**: Explore images captured on specific dates.  
+- 🖼️ **High-Resolution Views**: Dive into detailed rover captures.  
+- 🔍 **Multi-Rover Access**: View images from all rovers sent to Mars.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Interested in how it’s built?
+📹 Watch the video: https://www.youtube.com/watch?v=wJGY9roFr5E
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## 🛠️ Installation  
+1. **Clone the repository:**  
+   ```bash  
+   git clone https://github.com/janigowski/mars-explorer.git  
+   ```  
+2. **Navigate to the project directory:**  
+   ```bash  
+   cd mars-explorer  
+   ```  
+3. **Install dependencies:**  
+   ```bash  
+   npm install  
+   ```  
+4. **Obtain a NASA API Key:**  
+   - Sign up at [NASA API Portal](https://api.nasa.gov/) to get your free API key.  
+5. **Create a `.env` file in the root directory and add your API key:**  
+   ```env  
+   REACT_APP_NASA_API_KEY=your_api_key_here  
+   ```  
+6. **Start the development server:**  
+   ```bash  
+   npm start  
+   ```  
+   The application will run at `http://localhost:3000`.
 
-### `yarn test`
+## 🚀 Usage  
+- **Browse Images**: View the latest captures from NASA's rovers on Mars.  
+- **Filter by Date**: Use the date picker to refine your search.  
+- **View Details**: Click on an image thumbnail for a closer look and additional metadata.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧰 Technologies Used  
+- **React**: Frontend library for building the user interface.
+- **react-sweet-state**: For managing application state.
+- **Axios**: For making HTTP requests to the NASA API.  
+- **React Router**: For handling navigation within the app.  
+- **styled-components**: For styling components.  
 
-### `yarn build`
+## 🤝 Contributing  
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📜 License  
+This project is licensed under the MIT License.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+---  
+🌌 Explore Mars like never before with the latest images from NASA's rovers!
